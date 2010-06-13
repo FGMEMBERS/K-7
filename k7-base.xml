@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+ 
+    <author>Emmanuel BARANGER (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>0.1 Alpha</status>
+
+    <fuel-fraction>0.8</fuel-fraction>
+  
+    <model>
+      <path archive="y">Aircraft/K-7/Models/k7.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <sound>
+      <path>Aircraft/K-7/Sounds/k7-sound.xml</path>
+    </sound>
+
+    <startup>
+      <splash-texture>Aircraft/K-7/k7-splash.png</splash-texture>
+    </startup>
+  
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Kalinin K7</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close canopy</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/k7-menu.xml"/>
+
+  </sim>
+
+  <input>
+    <keyboard include="Nasal/k7-keyboard.xml"/>
+  </input>
+ 
+  <nasal>
+    <k7> 
+      <file>Aircraft/K-7/Nasal/light.nas</file>
+      <file>Aircraft/K-7/Nasal/liveries.nas</file>
+      <file>Aircraft/K-7/Nasal/immat.nas</file>
+    </k7>
+    <doors> 
+      <file>Aircraft/K-7/Nasal/doors.nas</file>
+    </doors> 
+  </nasal>
+
+</PropertyList>
