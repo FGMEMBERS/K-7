@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="k7-jsbsim-cnf.xml"> -->
+<PropertyList include="k7-yasim-cnf.xml">
+
+  <sim>
+    <description>Tupolev ANT 20 Maxime Gorky</description>
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+  </sim>
+
+</PropertyList>
+
