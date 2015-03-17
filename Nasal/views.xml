@@ -12,9 +12,9 @@
       <from-model type="bool">true</from-model>
       <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
       <heading-offset-deg type="double">0</heading-offset-deg> <!-- inside its window -->
-      <x-offset-m archive="y">   0.867 </x-offset-m> <!-- Right -->
-      <y-offset-m archive="y">   0.253 </y-offset-m> <!-- Up    -->
-      <z-offset-m archive="y"> -12.643 </z-offset-m> <!-- Back  -->
+      <x-offset-m archive="y">   0.576 </x-offset-m> <!-- Right -->
+      <y-offset-m archive="y">   0.374 </y-offset-m> <!-- Up    -->
+      <z-offset-m archive="y"> -11.388 </z-offset-m> <!-- Back  -->
       <pitch-offset-deg> 0 </pitch-offset-deg>
       <default-field-of-view-deg type="double"> 55 </default-field-of-view-deg>
     </config>
