@@ -7,12 +7,26 @@
   <nasal>
     <load>
       var livery_update = aircraft.livery_update.new("Aircraft/K-7/Models/Liveries", 10);
+      
+      var self = cmdarg();
+      
+      var float_0 = self.getNode("sim/multiplay/generic/float[0]", 1);
+      var float_1 = self.getNode("sim/multiplay/generic/float[1]", 1);
+      
+      var crew_door = self.getNode("sim/model/door-positions/crew/position-norm", 1);
+      var passenger_door = self.getNode("sim/model/door-positions/passenger/position-norm", 1);
+      
+      crew_door.alias(float_0);
+      passenger_door.alias(float_1);
     </load>
+    
     <unload>
       livery_update.stop();
+      crew_door.unalias();
+      passenger_door.unalias();
     </unload>
   </nasal>
-
+  
   <animation>
     <!-- transparent opaques -->
     <object-name>fuselage</object-name>
@@ -108,35 +122,11 @@
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>texture.png</texture>
-<!--
-    <diffuse>
-      <red-prop>diffuse/red</red-prop>
-      <green-prop>diffuse/green</green-prop>
-      <blue-prop>diffuse/blue</blue-prop>
-    </diffuse>
-
-    <ambient>
-      <red-prop>ambient/red</red-prop>
-      <green-prop>ambient/green</green-prop>
-      <blue-prop>ambient/blue</blue-prop>
-    </ambient>
--->
     <specular>
       <red-prop>specular/red</red-prop>
       <green-prop>specular/green</green-prop>
       <blue-prop>specular/blue</blue-prop>
     </specular>
-
-    <emission>
-      <red-prop>emission/red</red-prop>
-      <green-prop>emission/green</green-prop>
-      <blue-prop>emission/blue</blue-prop>
-    </emission>
-<!--
-    <shininess>
-      <shininess-prop>shininess</shininess-prop>
-    </shininess>
--->
   </animation>
 
   <effect>
@@ -175,28 +165,78 @@
     <object-name>bolC</object-name>
   </effect>
 
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/K-7/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitres</object-name>
-  </animation>
-
-  <animation>
-    <type>noshadow</type>
+  </effect>
+  
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
     <object-name>vitres</object-name>
-  </animation>
-
+  </effect>
+  
+  <!-- Une ombre pour OSG -->
+  <model>
+    <path>Aircraft/K-7/Models/shadow.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m>  0.00 </y-m>
+      <z-m> -4.07 </z-m>
+    </offsets>
+  </model>
+  
   <!-- L'intérieur -->
   <model>
     <path>Aircraft/K-7/Models/Interior/interior.xml</path>
-    <offsets>
-      <x-m> 0 </x-m>
-      <y-m> 0 </y-m>
-      <z-m> 0 </z-m>
-    </offsets>
   </model>
 
+  <!-- Cranking effetcs -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/all-cranking.xml</path>
+  </model>
+  
+  <!-- Effets sur le sol -->
+  <!-- Roue avant gauche -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/ground/ground0.xml</path>
+    <offsets>
+      <x-m> -8.16000 </x-m>
+      <y-m> -5.35662 </y-m>
+      <z-m> -4.66905 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Roue arrière gauche -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/ground/ground1.xml</path>
+    <offsets>
+      <x-m> -4.39400 </x-m>
+      <y-m> -5.35662 </y-m>
+      <z-m> -4.66905 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Roue avant droite -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/ground/ground2.xml</path>
+    <offsets>
+      <x-m> -8.16000 </x-m>
+      <y-m>  5.35662 </y-m>
+      <z-m> -4.66905 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Roue arrière droite -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/ground/ground3.xml</path>
+    <offsets>
+      <x-m> -4.39400 </x-m>
+      <y-m>  5.35662 </y-m>
+      <z-m> -4.66905 </z-m>
+    </offsets>
+  </model>
+  
   <!-- Les hélices -->
   <!-- Extérieur gauche -->
   <animation>
@@ -250,6 +290,12 @@
   <animation>
     <type>spin</type>
     <object-name>HeliceCompleteGE</object-name>
+    <condition>
+      <greater-than>
+        <property>engines/engine[0]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <property>engines/engine[0]/rpm</property>
     <factor> -1 </factor>
     <center>
@@ -316,6 +362,12 @@
   <animation>
     <type>spin</type>
     <object-name>HeliceCompleteGC</object-name>
+    <condition>
+      <greater-than>
+        <property>engines/engine[1]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <property>engines/engine[1]/rpm</property>
     <factor> -1 </factor>
     <center>
@@ -382,6 +434,12 @@
   <animation>
     <type>spin</type>
     <object-name>HeliceCompleteGI</object-name>
+    <condition>
+      <greater-than>
+        <property>engines/engine[2]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <property>engines/engine[2]/rpm</property>
     <factor> -1 </factor>
     <center>
@@ -448,6 +506,12 @@
   <animation>
     <type>spin</type>
     <object-name>HeliceCompleteDI</object-name>
+    <condition>
+      <greater-than>
+        <property>engines/engine[3]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <property>engines/engine[3]/rpm</property>
     <factor> -1 </factor>
     <center>
@@ -514,6 +578,12 @@
   <animation>
     <type>spin</type>
     <object-name>HeliceCompleteDC</object-name>
+    <condition>
+      <greater-than>
+        <property>engines/engine[4]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <property>engines/engine[4]/rpm</property>
     <factor> -1 </factor>
     <center>
@@ -580,6 +650,12 @@
   <animation>
     <type>spin</type>
     <object-name>HeliceCompleteDE</object-name>
+    <condition>
+      <greater-than>
+        <property>engines/engine[5]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <property>engines/engine[5]/rpm</property>
     <factor> -1 </factor>
     <center>
@@ -646,6 +722,12 @@
   <animation>
     <type>spin</type>
     <object-name>HeliceCompleteC</object-name>
+    <condition>
+      <greater-than>
+        <property>engines/engine[6]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <property>engines/engine[6]/rpm</property>
     <factor> -1 </factor>
     <center>
@@ -657,37 +739,6 @@
       <x> 1 </x>
       <y> 0 </y>
       <z> 0 </z>
-    </axis>
-  </animation>
-
-  <!-- Animations des ailerons -->
-  <animation>
-    <type>rotate</type>
-    <object-name>aileronG</object-name>
-    <property>surface-positions/left-aileron-pos-norm</property>
-    <factor> 15 </factor>
-    <axis>
-      <x1-m>  -1.708 </x1-m>
-      <y1-m> -23.830 </y1-m>
-      <z1-m>   0.393 </z1-m>
-      <x2-m>   0.605 </x2-m>
-      <y2-m> -13.552 </y2-m>
-      <z2-m>  -0.233 </z2-m>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>aileronD</object-name>
-    <property>surface-positions/right-aileron-pos-norm</property>
-    <factor> 15 </factor>
-    <axis>
-      <x1-m>  0.605 </x1-m>
-      <y1-m> 13.552 </y1-m>
-      <z1-m> -0.233 </z1-m>
-      <x2-m> -1.708 </x2-m>
-      <y2-m> 23.830 </y2-m>
-      <z2-m>  0.393 </z2-m>
     </axis>
   </animation>
 
@@ -708,7 +759,7 @@
       <z> 0 </z>
     </axis>
   </animation>
-
+  
   <!-- Animation des gouvernes de direction -->
   <animation>
     <type>rotate</type>
@@ -740,5 +791,104 @@
     </axis>
   </animation>
   
-</PropertyList>
+  <!-- Animations des ailerons -->
+  <animation>
+    <type>rotate</type>
+    <object-name>aileronG</object-name>
+    <property>surface-positions/left-aileron-pos-norm</property>
+    <factor> 15 </factor>
+    <axis>
+      <x1-m>  -1.708 </x1-m>
+      <y1-m> -23.830 </y1-m>
+      <z1-m>   0.393 </z1-m>
+      <x2-m>   0.605 </x2-m>
+      <y2-m> -13.552 </y2-m>
+      <z2-m>  -0.233 </z2-m>
+    </axis>
+  </animation>
 
+  <animation>
+    <type>rotate</type>
+    <object-name>aileronD</object-name>
+    <property>surface-positions/right-aileron-pos-norm</property>
+    <factor> 15 </factor>
+    <axis>
+      <x1-m>  0.605 </x1-m>
+      <y1-m> 13.552 </y1-m>
+      <z1-m> -0.233 </z1-m>
+      <x2-m> -1.708 </x2-m>
+      <y2-m> 23.830 </y2-m>
+      <z2-m>  0.393 </z2-m>
+    </axis>
+  </animation>
+
+  <!-- Rotation des roues lors du roulage -->
+  <animation>
+    <type>spin</type>
+    <object-name>roueG2</object-name>
+    <property>gear/gear[0]/rollspeed-ms</property>
+    <factor> 30 </factor>
+    <center>
+      <x-m> -8.16000 </x-m>
+      <y-m> -5.35662 </y-m>
+      <z-m> -3.68586 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>spin</type>
+    <object-name>roueG1</object-name>
+    <property>gear/gear[1]/rollspeed-ms</property>
+    <factor> 30 </factor>
+    <center>
+      <x-m> -4.39400 </x-m>
+      <y-m> -5.35662 </y-m>
+      <z-m> -3.68586 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>spin</type>
+    <object-name>roueD2</object-name>
+    <property>gear/gear[2]/rollspeed-ms</property>
+    <factor> 30 </factor>
+    <center>
+      <x-m> -8.16000 </x-m>
+      <y-m>  5.35662 </y-m>
+      <z-m> -3.68586 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>spin</type>
+    <object-name>roueD1</object-name>
+    <property>gear/gear[3]/rollspeed-ms</property>
+    <factor> 30 </factor>
+    <center>
+      <x-m> -4.39400 </x-m>
+      <y-m>  5.35662 </y-m>
+      <z-m> -3.68586 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+  
+</PropertyList>

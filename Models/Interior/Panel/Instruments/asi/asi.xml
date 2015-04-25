@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+#############################################################################
+#    (C) 2006 by Yurik V. Nikiforoff - port for FGFS,  FDM,                 #
+#             2d & 3d instruments, animations, systems and over.            #
+#             yurik@megasignal.com                                          #
+#                                                                           #
+# Updated by Helijah August 2013                                            #
+#                    August 2014                                            #
+#                    April  2015                                            #
+#############################################################################   
+-->
+
+<PropertyList>
+  
+  <path>asi.ac</path>
+  
+  <animation>
+    <object-name>fond</object-name>   
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+    <object-name>index</object-name>
+    
+    <object-name>vitre</object-name>
+  </animation>
+  
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/K-7/Models/Effects/Glass/glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+  
+  <animation>
+    <type>material</type>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+    <object-name>index</object-name>
+    <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>needle</object-name>
+    <property>instrumentation/airspeed-indicator/indicated-speed-kt</property>
+    <interpolation>
+      <entry><ind>   0 </ind><dep>   0.00 </dep></entry> <!--   0 km/h -->
+      <entry><ind>  90 </ind><dep>  43.20 </dep></entry> <!--  80 km/h -->
+      <entry><ind> 180 </ind><dep>  86.40 </dep></entry> <!-- 160 km/h -->
+      <entry><ind> 270 </ind><dep> 129.60 </dep></entry> <!-- 240 km/h -->
+      <entry><ind> 340 </ind><dep> 161.98 </dep></entry> <!-- 300 km-h -->
+    </interpolation>
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>index</object-name>
+    <property>instrumentation/airspeed-indicator/indicated-speed-kt</property>
+    <interpolation>
+      <entry><ind>   0 </ind><dep>   0.00 </dep></entry> <!--   0 km/h -->
+      <entry><ind>  90 </ind><dep>  43.20 </dep></entry> <!--  80 km/h -->
+      <entry><ind> 180 </ind><dep>  86.40 </dep></entry> <!-- 160 km/h -->
+      <entry><ind> 270 </ind><dep> 129.60 </dep></entry> <!-- 240 km/h -->
+      <entry><ind> 340 </ind><dep> 161.98 </dep></entry> <!-- 300 km-h -->
+    </interpolation>
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+  
+</PropertyList>
