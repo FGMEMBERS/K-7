@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+ 
+  <!-- Engine 0 Left -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -9.21139 </x-m>
+      <y-m> -14.20020 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -9.10139 </x-m>
+      <y-m> -14.20020 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -8.97139 </x-m>
+      <y-m> -14.20020 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -8.84139 </x-m>
+      <y-m> -14.20020 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -8.71139 </x-m>
+      <y-m> -14.20020 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -8.58139 </x-m>
+      <y-m> -14.20020 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 0 Right -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -9.21139 </x-m>
+      <y-m> -13.04359 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -9.10139 </x-m>
+      <y-m> -13.04359 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -8.97139 </x-m>
+      <y-m> -13.04359 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -8.84139 </x-m>
+      <y-m> -13.04359 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -8.71139 </x-m>
+      <y-m> -13.04359 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m>  -8.58139 </x-m>
+      <y-m> -13.04359 </y-m>
+      <z-m>   0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 1 Left -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.85841 </x-m>
+      <y-m> -9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.72841 </x-m>
+      <y-m> -9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.59841 </x-m>
+      <y-m> -9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.46841 </x-m>
+      <y-m> -9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.33841 </x-m>
+      <y-m> -9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.20841 </x-m>
+      <y-m> -9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 1 Right -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.85841 </x-m>
+      <y-m> -8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.72841 </x-m>
+      <y-m> -8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.59841 </x-m>
+      <y-m> -8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.46841 </x-m>
+      <y-m> -8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.33841 </x-m>
+      <y-m> -8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -9.20841 </x-m>
+      <y-m> -8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 2 Left -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.85841 </x-m>
+      <y-m> -4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.72841 </x-m>
+      <y-m> -4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.59841 </x-m>
+      <y-m> -4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.46841 </x-m>
+      <y-m> -4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.33841 </x-m>
+      <y-m> -4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.20841 </x-m>
+      <y-m> -4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 2 Right -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.85841 </x-m>
+      <y-m> -3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.72841 </x-m>
+      <y-m> -3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.59841 </x-m>
+      <y-m> -3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.46841 </x-m>
+      <y-m> -3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.33841 </x-m>
+      <y-m> -3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -9.20841 </x-m>
+      <y-m> -3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 3 Left -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.85841 </x-m>
+      <y-m>  3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.72841 </x-m>
+      <y-m>  3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.59841 </x-m>
+      <y-m>  3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.46841 </x-m>
+      <y-m>  3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.33841 </x-m>
+      <y-m>  3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.20841 </x-m>
+      <y-m>  3.59369 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 3 Right -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.85841 </x-m>
+      <y-m>  4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.72841 </x-m>
+      <y-m>  4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.59841 </x-m>
+      <y-m>  4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.46841 </x-m>
+      <y-m>  4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.33841 </x-m>
+      <y-m>  4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -9.20841 </x-m>
+      <y-m>  4.75031 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 4 Left -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.85841 </x-m>
+      <y-m>  8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.72841 </x-m>
+      <y-m>  8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.59841 </x-m>
+      <y-m>  8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.46841 </x-m>
+      <y-m>  8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.33841 </x-m>
+      <y-m>  8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.20841 </x-m>
+      <y-m>  8.48769 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 4 Right -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.85841 </x-m>
+      <y-m>  9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.72841 </x-m>
+      <y-m>  9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.59841 </x-m>
+      <y-m>  9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.46841 </x-m>
+      <y-m>  9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.33841 </x-m>
+      <y-m>  9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking4.xml</path>
+    <offsets>
+      <x-m> -9.20841 </x-m>
+      <y-m>  9.64431 </y-m>
+      <z-m>  0.11994 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 5 Left -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -9.21139 </x-m>
+      <y-m> 13.04359 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -9.10139 </x-m>
+      <y-m> 13.04359 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -8.97139 </x-m>
+      <y-m> 13.04359 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -8.84139 </x-m>
+      <y-m> 13.04359 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -8.71139 </x-m>
+      <y-m> 13.04359 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -8.58139 </x-m>
+      <y-m> 13.04359 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 5 Right -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -9.21139 </x-m>
+      <y-m> 14.20020 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -9.10139 </x-m>
+      <y-m> 14.20020 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -8.97139 </x-m>
+      <y-m> 14.20020 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -8.84139 </x-m>
+      <y-m> 14.20020 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -8.71139 </x-m>
+      <y-m> 14.20020 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking5.xml</path>
+    <offsets>
+      <x-m> -8.58139 </x-m>
+      <y-m> 14.20020 </y-m>
+      <z-m>  0.44144 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 6 Left -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  1.17697 </x-m>
+      <y-m> -0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  1.04697 </x-m>
+      <y-m> -0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  1.91697 </x-m>
+      <y-m> -0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  0.78697 </x-m>
+      <y-m> -0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  0.65697 </x-m>
+      <y-m> -0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  0.52697 </x-m>
+      <y-m> -0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <!-- Engine 6 Right -->
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  1.17697 </x-m>
+      <y-m>  0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  1.04697 </x-m>
+      <y-m>  0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  1.91697 </x-m>
+      <y-m>  0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  0.78697 </x-m>
+      <y-m>  0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  0.65697 </x-m>
+      <y-m>  0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/K-7/Models/Effects/cranking/cranking6.xml</path>
+    <offsets>
+      <x-m>  0.52697 </x-m>
+      <y-m>  0.57831 </y-m>
+      <z-m> -0.01287 </z-m>
+      <pitch-deg>   -45 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+  
+</PropertyList>

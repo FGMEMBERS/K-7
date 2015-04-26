@@ -1,12 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!-- <PropertyList include="k7-jsbsim-cnf.xml"> -->
-<PropertyList include="k7-yasim-cnf.xml">
+<PropertyList include="k7-base.xml">
 
   <sim>
-    <description>Tupolev ANT 20 Maxime Gorky</description>
+    
+    <description>Kalinin K7 (YASim)</description>
     <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.2</aircraft-version>
+    <status>0.2 Alpha</status>
+    
+    <flight-model>yasim</flight-model>
+    <aero>k7-yasim</aero>
+    
+    <rating>
+      <FDM type="int">     3 </FDM>
+      <systems type="int"> 0 </systems>
+      <cockpit type="int"> 1 </cockpit>
+      <model type="int">   4 </model>
+    </rating>
+    
   </sim>
 
 </PropertyList>
-

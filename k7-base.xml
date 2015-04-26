@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
-  <sim include="Nasal/views.xml">
+  <sim include="Systems/views.xml">
  
-    <author>Emmanuel BARANGER (3D/FDM)</author>
-    <aircraft-version>0.1</aircraft-version>
-    <status>0.1 Alpha</status>
+    <description>Kalinin K7 (YASim)</description>
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.2</aircraft-version>
+    <status>0.2 Alpha</status>
 
     <fuel-fraction>0.8</fuel-fraction>
   
@@ -27,41 +28,57 @@
   
     <multiplay>
       <chat_display>1</chat_display>
-      <generic>
-        <int type="int">0</int>
-        <int type="int">0</int>
-        <int type="int">0</int>
-        <int type="int">0</int>
-        <int type="int">0</int>
-        <int type="int">0</int>
+      <generic> 
+        <int   n="0"  type="int">  0 </int>                                         <!--  0 immat -->
+        <int   n="1"  type="int">  0 </int>                                         <!--  1 immat -->
+        <int   n="2"  type="int">  0 </int>                                         <!--  2 immat -->
+        <int   n="3"  type="int">  0 </int>                                         <!--  3 immat -->
+        <int   n="4"  type="int">  0 </int>                                         <!--  4 immat -->
+        <int   n="5"  type="int">  0 </int>                                         <!--  5 immat -->
+        <int   n="6"  type="bool" alias="/smoke/active"> 0 </int>                   <!--  6 start smoke -->
+        <int   n="7"  type="int" alias="smoke/particlepersec"> 50 </int>            <!--  7 particlepersec -->
+        <int   n="10" type="int" alias="controls/armament/trigger">0</int>          <!-- 10 reserved for bombable mode -->
+        <float n="0"  alias="/sim/model/door-positions/crew/position-norm"/>
+        <float n="1"  alias="/sim/model/door-positions/passenger/position-norm"/>
+        <float n="2"  alias="/position/gear-agl-m"> 0 </float>                      <!-- altitude for MP shadow -->
+        <float n="3"  alias="/position/altitude-ft"> 0 </float>                     <!-- altitude for Smoke/Trail -->
+        <float n="4"  alias="/engines/engine[0]/cranking"/>
+        <float n="5"  alias="/engines/engine[1]/cranking"/>
+        <float n="6"  alias="/engines/engine[2]/cranking"/>
+        <float n="7"  alias="/engines/engine[3]/cranking"/>
+        <float n="8"  alias="/engines/engine[4]/cranking"/>
+        <float n="9"  alias="/engines/engine[5]/cranking"/>
+        <float n="10" alias="/engines/engine[6]/cranking"/>
+        <float n="11" alias="/engines/engine[0]/rpm"/>
+        <float n="12" alias="/engines/engine[1]/rpm"/>
+        <float n="13" alias="/engines/engine[2]/rpm"/>
+        <float n="14" alias="/engines/engine[3]/rpm"/>
+        <float n="15" alias="/engines/engine[4]/rpm"/>
+        <float n="16" alias="/engines/engine[5]/rpm"/>
+        <float n="17" alias="/engines/engine[6]/rpm"/>
+        <!-- For Bombable -->
+        <int type="int" n="10" alias="controls/armament/trigger">0</int>
+        <string n="9" type="string" />
       </generic>
     </multiplay>
-
-    <help>
-      <title>Kalinin K7</title>
-      <key>
-        <name>d</name>
-        <desc>Open/Close canopy</desc>
-      </key>
-    </help>
+    
+    <help include="Systems/help.xml"/>
 
     <menubar include="Dialogs/k7-menu.xml"/>
 
   </sim>
 
-  <input>
-    <keyboard include="Nasal/k7-keyboard.xml"/>
-  </input>
+  <input include="Systems/k7-keyboard.xml"/>
  
   <nasal>
+    <doors> 
+      <file>Aircraft/K-7/Nasal/doors.nas</file>
+    </doors> 
     <k7> 
       <file>Aircraft/K-7/Nasal/light.nas</file>
       <file>Aircraft/K-7/Nasal/liveries.nas</file>
       <file>Aircraft/K-7/Nasal/immat.nas</file>
     </k7>
-    <doors> 
-      <file>Aircraft/K-7/Nasal/doors.nas</file>
-    </doors> 
   </nasal>
 
 </PropertyList>
